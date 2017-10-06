@@ -1,0 +1,34 @@
+{
+  "name": "site-scan",
+  "version": "1.0.0",
+  "description": "CLI for capturing full page website screenshots",
+  "main": "./lib/site-scan.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherwk210/site-scan.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "site",
+    "scan",
+    "chrome",
+    "screenshot"
+  ],
+  "bin": {
+    "ss": "./lib/site-scan.js",
+    "sitescan": "./lib/site-scan.js"
+  },
+  "preferGlobal": true,
+  "author": "Chris Anselmo <christopherwk210@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherwk210/site-scan/issues"
+  },
+  "homepage": "https://github.com/christopherwk210/site-scan#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "minimist": "^1.2.0"
+  }
+}
