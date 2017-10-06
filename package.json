@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "CLI for capturing full page website screenshots",
   "main": "./lib/site-scan.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./lib/site-scan.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christopherwk210/site-scan.git"
@@ -17,8 +19,8 @@
     "screenshot"
   ],
   "bin": {
-    "ss": "./lib/site-scan.js",
-    "sitescan": "./lib/site-scan.js"
+    "sitescan": "./lib/site-scan.js",
+    "ss": "./lib/site-scan.js"    
   },
   "preferGlobal": true,
   "author": "Chris Anselmo <christopherwk210@gmail.com>",
