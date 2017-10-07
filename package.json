@@ -1,6 +1,6 @@
 {
   "name": "site-scan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI for capturing website screenshots",
   "main": "./lib/site-scan.js",
   "scripts": {
