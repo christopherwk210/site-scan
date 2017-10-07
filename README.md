@@ -2,7 +2,7 @@
 <p align="center">
   <img src="./assets/demo.gif" alt="site-scan easily takes screenshots of websites">
 </p>
-<p align="center">CLI for capturing website screenshots.</p>
+<p align="center">CLI for capturing website screenshots, powered by <a href="https://github.com/GoogleChrome/puppeteer">puppeteer</a>.</p>
 
 # Installation
 
