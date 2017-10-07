@@ -1,6 +1,6 @@
 {
   "name": "site-scan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI for capturing website screenshots",
   "main": "./lib/site-scan.js",
   "scripts": {
@@ -33,5 +33,9 @@
     "chalk": "^2.1.0",
     "minimist": "^1.2.0",
     "puppeteer": "^0.11.0"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 7.6"
   }
 }
