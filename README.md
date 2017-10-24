@@ -38,6 +38,8 @@ $ ss [options] [url(s)]
 
 `-s` or `--sleep` Time (ms) to wait after load before screenshot (Default: 0)
 
+`-n` or `--name` Custom file name. Multiple screenshots will append a number to this name. (Default: website hostname)
+
 # Examples
 
 Take a full page screenshot of a website
