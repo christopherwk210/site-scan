@@ -40,6 +40,8 @@ $ ss [options] [url(s)]
 
 `-n` or `--name` Custom file name. Multiple screenshots will append a number to this name. (Default: website hostname)
 
+`-r` or `--scale` Custom browser scaling to use (Default: 1)
+
 # Examples
 
 Take a full page screenshot of a website
