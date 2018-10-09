@@ -42,6 +42,8 @@ $ ss [options] [url(s)]
 
 `-r` or `--scale` Custom browser scaling to use (Default: 1)
 
+`-l` or `--list` Loads url(s) from a local file instead of the CLI (must be separated by a space character) (Default: undefined)
+
 # Examples
 
 Take a full page screenshot of a website
@@ -57,6 +59,11 @@ $ ss youtube.com google.com -j
 Use a custom resolution
 ```
 $ ss github.com -x 640 -y 480
+```
+
+Use a text file of space-separated URLs to load from
+```
+$ ss -l ./path/to/websites_list.txt
 ```
 
 # Development
