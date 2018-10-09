@@ -1,6 +1,6 @@
 {
   "name": "site-scan",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "CLI for capturing website screenshots",
   "main": "./lib/site-scan.js",
   "scripts": {
@@ -30,9 +30,9 @@
   },
   "homepage": "https://github.com/christopherwk210/site-scan#readme",
   "dependencies": {
-    "chalk": "^2.1.0",
+    "chalk": "^2.4.1",
     "minimist": "^1.2.0",
-    "puppeteer": "^0.11.0"
+    "puppeteer": "^1.9.0"
   },
   "engineStrict": true,
   "engines": {
